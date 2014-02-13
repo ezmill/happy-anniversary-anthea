@@ -17,7 +17,7 @@ $(document).scroll(function(e){
     $('#scroll-down').hide();
 });
 
-var emojiBank = ["\u263A", "\uD83D\uDC97", "\uD83D\uDC8F", "\uD83D\uDE0D", "\uD83D\uDC96", "\uD83D\uDC90", "\uD83C\uDF89", "\uD83D\uDC78", "\uD83D\uDC95", "\u2764\uFE0F"];
+var emojiBank = ["\u263A", "\uD83D\uDC97", "\uD83D\uDC8F", "\uD83D\uDE0D", "\uD83D\uDC96", "\uD83D\uDC90", "\uD83C\uDF89", "\uD83D\uDC78", "\uD83D\uDC95", "\u2764\uFE0F", "\uD83D\uDC25", "\uD83D\uDC20", "\uD83D\uDC9D", "\uD83D\uDC31", "\uD83C\uDF53" ];
 
 
 $(document).ready(function(){
