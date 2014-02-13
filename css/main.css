@@ -1,0 +1,147 @@
+@import url(http://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff);
+@import url(http://fonts.googleapis.com/css?family=Vollkorn);
+
+body{
+	background: rgb(255,216,232); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(255,216,232,1) 0%, rgba(255,183,214,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,216,232,1)), color-stop(100%,rgba(255,183,214,1))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,216,232,1) 0%,rgba(255,183,214,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  rgba(255,216,232,1) 0%,rgba(255,183,214,1) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(255,216,232,1) 0%,rgba(255,183,214,1) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  rgba(255,216,232,1) 0%,rgba(255,183,214,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd8e8', endColorstr='#ffb7d6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	font-family: 'Vollkorn', serif;
+	width:100%;
+	margin: 0;
+}
+#image{
+	background:url(../img/pic1.jpeg) no-repeat center center fixed;
+	padding-bottom: 33.333333%;
+	background-size: 100%;
+}
+#content{
+	height: 100%;
+	z-index: -1
+}
+
+#scroll-down{
+	display: block;
+	margin: 0 auto;
+	/*width: 100%;*/
+	top: 400px;
+	color: white;
+	position:relative;
+	width: 0;
+	height: 0;
+	border-left: 6.25px solid transparent;
+	border-right: 6.25px solid transparent;
+	border-top: 12.5px solid white;
+
+}
+h1{
+	font-family: 'Herr Von Muellerhoff', cursive;
+	text-align: center;
+	
+}
+h3{
+	text-align: center;
+}
+nav{
+  	text-align: left;
+	
+}
+nav ul{
+	padding-left: 0;
+    margin-left: 0;
+
+}
+nav li{
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	width:33%;
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+
+}
+nav li:hover{
+	background-color: rgba(255, 255, 255, 0.5);
+	color: white;
+}
+nav li a{
+	color: black;
+	text-decoration: none;
+	
+	font-size: 24px;
+}
+nav li a:hover{
+	color:white;
+
+}
+
+span{
+	background-size: 40px;
+}
+.emoji{
+	/*//position: relative;*/
+	display: inline-block;
+	float: left;
+	/*width: 100%;*/
+	/*-webkit-transition: all .2s ease-in-out;*/
+}
+/*span:hover{
+	-webkit-transform: scale(2,2);
+	    transform: scale(2,2);
+
+}*/
+#curvedarrow {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 9px solid transparent;
+  border-right: 9px solid black;
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+}
+#curvedarrow:after {
+  content: "";
+  position: absolute;
+  border: 0 solid transparent;
+  border-top: 3px solid black;
+  border-radius: 20px 0 0 0;
+  top: -12px;
+  left: -9px;
+  width: 12px;
+  height: 12px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+#curvedarrow-container{
+	position: relative;
+	left: -240px;
+	top: -20px;
+	 -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+#click-me{
+	position: relative;
+	left: -510px;
+	top: 30px;
+		 -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+#text-wrapper{
+	width: 500px;
+    margin: 0 auto;
+}
+#anthea{
+	display:inline-block;
+}
