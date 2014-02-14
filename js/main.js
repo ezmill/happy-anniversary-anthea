@@ -87,16 +87,16 @@ $(document).ready(function(){
                 speed: Math.floor(Math.random()*500) + 100,
                 height: Math.floor(Math.random()*500) - 250,
                 width: Math.floor(Math.random()*500) - 250,
-                loop: true
+                loop: false
             });
         });
     },
         function(){
             $('.emoji').each(function(){
-                $(this).circulate({
+                // $(this).circulate({
  
-                loop: false
-                });
+                // loop: false
+                // });
             });
             $('.emoji').hide();
         }

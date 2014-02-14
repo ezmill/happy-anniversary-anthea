@@ -84,8 +84,10 @@ span{
 }
 .emoji{
 	/*//position: relative;*/
+	z-index: 1;
 	display: inline-block;
 	float: left;
+	/*margin: 40px;*/
 	/*width: 100%;*/
 	/*-webkit-transition: all .2s ease-in-out;*/
 }
