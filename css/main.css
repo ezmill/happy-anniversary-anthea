@@ -53,13 +53,15 @@ nav{
 nav ul{
 	padding-left: 0;
     margin-left: 0;
+    display: table;
+    width:100%;
 
 }
 nav li{
 	list-style: none;
-	display: inline-block;
+	display: table-cell;
 	text-align: center;
-	width:33%;
+	width:33.333%;
 	border-bottom: 2px solid white;
 	border-right: 2px solid white;
 
